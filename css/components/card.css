@@ -1,0 +1,35 @@
+.card-img > img {
+  height: 41px;
+  width: auto;
+  margin-bottom: 22px;
+}
+
+.card {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 100%;
+}
+
+.card-text {
+  color: #ebebeb;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 33px;
+  flex-grow: 1;
+}
+
+.grid-item-card {
+  padding: 10px;
+  margin-bottom: 119px;
+}
+
+.card-title {
+  color: #ebebeb;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 33px;
+}

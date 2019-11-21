@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width:960px) {
+  .nav {
+    display: none;
+  }
+}
+
+.nav-item {
+  color: #ffffff;
+  font-family: "Avenir Next Rounded Std";
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.97px;
+
+  padding-left: 60px;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #fed136;
+}
