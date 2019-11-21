@@ -39,6 +39,7 @@
   height: 359px;
   flex-wrap: wrap;
 }
+
 .grid-item {
   position: relative;
   flex-wrap: wrap;
@@ -66,9 +67,10 @@
 }
 
 .green-cards-grid {
-  padding-top: 93px;
-  margin: 0 -10px;
+  padding-top: 95px;
+  margin: 0 -26px;
 }
+
 .grid-form {
   flex-wrap: wrap;
   padding-bottom: 500px;

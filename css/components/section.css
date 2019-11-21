@@ -52,7 +52,7 @@
   z-index: -2;
 }
 
-.section-background > img {
+.section-background>img {
   -o-object-fit: cover;
   object-fit: cover;
   display: block;
@@ -100,7 +100,7 @@
   max-width: 100%;
 }
 
-.first-img > img {
+.first-img>img {
   height: 23px;
   width: auto;
   margin-bottom: 25px;
@@ -119,14 +119,14 @@
 
 .first-title {
   font-family: "Montserrat", sans-serif;
-  margin-top: 55px;
+  /* margin-top: 55px; */
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
   line-height: 22px;
   letter-spacing: 1.4px;
   color: #fd634e;
-  margin-bottom: 13px;
+  margin-bottom: 00px;
 }
 
 .first-text {
@@ -135,6 +135,7 @@
   font-weight: 400;
   line-height: 26px;
   color: #656e74;
+  margin-top: -15px;
   margin-bottom: 15px;
 }
 
@@ -169,6 +170,7 @@
   margin: 0 62px 70px 39px;
   position: relative;
 }
+
 .style-card-left::after {
   content: url(../../images/Shape_14.svg);
   position: absolute;
@@ -195,7 +197,7 @@
   margin-left: 60px;
 }
 
-.img-eat > img {
+.img-eat>img {
   height: 354px;
 }
 
@@ -203,12 +205,14 @@
   background-color: #fff;
   position: relative;
 }
+
 .eat-card-left::after {
   content: url(../../images/Shape_31.svg);
   position: absolute;
   top: 0;
   right: -5px;
 }
+
 .eat-title {
   color: #ffffff;
   font-family: "Montserrat";
@@ -242,6 +246,7 @@
   margin: 55px 50px 70px 40px;
   position: relative;
 }
+
 .eat-right::after {
   content: url(../../images/Shape_33.svg);
   position: absolute;
@@ -254,11 +259,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 900px;
+  height: 804px;
 }
 
-.section-ideas {
-}
+.section-ideas {}
 
 .wrapper {
   margin: 1px;
@@ -284,6 +288,7 @@
   max-width: 479px;
   text-align: center;
 }
+
 .img-yoga {
   position: relative;
 }

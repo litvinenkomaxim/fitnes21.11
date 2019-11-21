@@ -1,4 +1,4 @@
-.card-img > img {
+.card-img>img {
   height: 41px;
   width: auto;
   margin-bottom: 22px;
@@ -13,23 +13,32 @@
 }
 
 .card-text {
-  color: #ebebeb;
+  color: white;
   font-family: "Proxima Nova";
   font-size: 14px;
   font-weight: 400;
-  margin-bottom: 33px;
+  margin-bottom: 15px;
   flex-grow: 1;
+  line-height: 23.98px;
 }
 
 .grid-item-card {
   padding: 10px;
-  margin-bottom: 119px;
+  margin-bottom: 100px;
 }
 
 .card-title {
-  color: #ebebeb;
+  padding-top: 20px;
+  color: white;
   font-family: "Open Sans";
   font-size: 24px;
   font-weight: 400;
-  margin-bottom: 33px;
+  margin-bottom: 23px;
+}
+
+.green-icon {
+  padding-top: 20px;
+  font-size: 46px;
+  color: white;
+  padding-bottom: 20px;
 }
