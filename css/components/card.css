@@ -1,4 +1,4 @@
-.card-img>img {
+.card-img > img {
   height: 41px;
   width: auto;
   margin-bottom: 22px;
@@ -41,4 +41,7 @@
   font-size: 46px;
   color: white;
   padding-bottom: 20px;
+}
+.life-card-img {
+  object-fit: cover;
 }

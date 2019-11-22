@@ -52,7 +52,7 @@
   z-index: -2;
 }
 
-.section-background>img {
+.section-background > img {
   -o-object-fit: cover;
   object-fit: cover;
   display: block;
@@ -100,7 +100,7 @@
   max-width: 100%;
 }
 
-.first-img>img {
+.first-img > img {
   height: 23px;
   width: auto;
   margin-bottom: 25px;
@@ -126,6 +126,7 @@
   line-height: 22px;
   letter-spacing: 1.4px;
   color: #fd634e;
+  padding-top: 00px;
   margin-bottom: 00px;
 }
 
@@ -163,11 +164,11 @@
 .img-life-right {
   position: absolute;
   z-index: 0;
-  max-width: 100%;
+  width: 100%;
 }
 
 .style-card-left {
-  margin: 0 62px 70px 39px;
+  margin: 40px 62px 70px 39px;
   position: relative;
 }
 
@@ -197,7 +198,7 @@
   margin-left: 60px;
 }
 
-.img-eat>img {
+.img-eat > img {
   height: 354px;
 }
 
@@ -262,7 +263,8 @@
   height: 804px;
 }
 
-.section-ideas {}
+.section-ideas {
+}
 
 .wrapper {
   margin: 1px;
